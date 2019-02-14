@@ -188,3 +188,45 @@ footer p {
   font-size: 15px;
   margin-bottom: 4px;
 }
+
+/* media 980px */
+
+@media screen and (max-width: 980px) {
+  .nav-title {
+    margin-left: 36px;
+  }
+  ul {
+    margin-right: 40px;
+  }
+  .about-border,
+  .portfolio-border,
+  .contact-border {
+    margin-left: 36px;
+    width: 600px;
+  }
+  .portfolio-column img {
+    height: 225px;
+    width: 225px;
+  }
+  .portfolio-column {
+    position: relative;
+  }
+  .portfolio-image-text,
+  .image-right {
+    position: absolute;
+    text-align: center;
+  }
+  .portfolio-image-text {
+    width: 225px;
+  }
+  .portfolio-column-right,
+  .image-right {
+    margin-left: 115px;
+  }
+  .form-field input {
+    width: 550px;
+  }
+  .form-field textarea {
+    width: 550px;
+  }
+}
