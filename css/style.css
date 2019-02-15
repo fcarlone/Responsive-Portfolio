@@ -189,7 +189,7 @@ footer p {
   margin-bottom: 4px;
 }
 
-/* media 980px */
+/* media sceen max-width: 980px */
 
 @media screen and (max-width: 980px) {
   .nav-title {
@@ -228,5 +228,22 @@ footer p {
   }
   .form-field textarea {
     width: 550px;
+  }
+}
+
+/* media sceen max-width: 768px */
+
+@media screen and (max-width: 768px) {
+  .about-border,
+  .portfolio-border,
+  .contact-border {
+    width: 90%;
+  }
+  .portfolio-column img {
+    height: 150%;
+    width: 150%;
+  }
+  .portfolio-image-text {
+    width: 150%;
   }
 }
