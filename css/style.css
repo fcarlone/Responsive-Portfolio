@@ -280,7 +280,28 @@ footer p {
     padding: 0;
   }
   .portfolio-row {
-    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .portfolio-column,
+  .portfolio-column-right {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .portfolio-column img {
+    height: 100%;
+    width: 100%;
+  }
+  .portfolio-column-right {
+    margin-left: 0;
+  }
+  .portfolio-image-text {
+    width: 100%;
+  }
+  .portfolio-image-text,
+  .image-right {
+    width: 100%;
+    margin-left: 0;
   }
   .form-field input {
     width: 100%;
